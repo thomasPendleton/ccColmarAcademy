@@ -118,60 +118,56 @@ header {
   max-width: 100%;
   max-height: 100%;
 }
-.activity{
-    display: flex;
-    margin: 0 0 16px 16px;
+.activity {
+  display: flex;
+  margin: 0 0 16px 16px;
 }
 .activities {
   display: flex;
   flex-direction: column;
   width: 40%;
-  
 }
 .activities-image-container {
   width: 35%;
   height: auto;
-  
 }
 
 .activities-image-container img {
   max-width: 100%;
   height: auto;
 }
-.activity-details{
-    width: 65%;
-    margin-left: 15px;
+.activity-details {
+  width: 65%;
+  margin-left: 15px;
 }
 
 /* --------------Start learning-------------- */
-.start-learning{
-    background-color: lightgray;
+.start-learning {
+  background-color: lightgray;
 }
 
-.start-learning-container{
-    
-    padding: 32px 72px;
-
+.start-learning-container {
+  padding: 32px 72px;
 }
-.start-learning-container h2{
-    text-align: center;
-    margin-bottom: 32px;
+.start-learning-container h2 {
+  text-align: center;
+  margin-bottom: 32px;
 }
 
-.courses{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
 }
-.card{
-    background-color: white;
+.card {
+  background-color: white;
 }
 
-.card img{
-    max-width: 100%;
+.card img {
+  max-width: 100%;
 }
-.card-info{
-    padding: 16px;
+.card-info {
+  padding: 16px;
 }
 
 @media screen and (max-width: 600px) {
