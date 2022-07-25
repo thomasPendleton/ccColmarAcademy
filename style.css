@@ -137,8 +137,17 @@ header {
   height: auto;
 }
 .activity-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 65%;
   margin-left: 15px;
+}
+.activity-details h2 {
+  margin: 0;
+}
+.activity-details p {
+  margin: 8px 0;
 }
 
 /* --------------Start learning-------------- */
@@ -169,7 +178,9 @@ header {
 .card-info {
   padding: 16px;
 }
-
+.mobile {
+  display: none;
+}
 @media screen and (max-width: 600px) {
   header {
     display: none;
@@ -193,5 +204,37 @@ header {
     padding: 8px 0;
     text-align: center;
     width: 100%;
+  }
+  .overview-container {
+    display: none;
+  }
+  .keep-practicing {
+    margin: 16px;
+  }
+  
+  .activities {
+    width: 100%;
+  }
+  .activity {
+    margin: 16px auto;
+    flex-direction: column;
+  }
+  .activities-image-container {
+   width: 100%;
+  }
+  .activity-details{
+    width: 100%;
+    margin: 16px;
+  }
+
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+    
+}
+  .courses {
+    grid-template-columns: 1fr;
   }
 }
