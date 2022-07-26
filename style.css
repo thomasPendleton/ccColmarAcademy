@@ -181,6 +181,53 @@ header {
 .mobile {
   display: none;
 }
+
+/* --------------Thesis-------------- */
+.thesis {
+  margin: 32px 24px;
+}
+.thesis h1 {
+  text-align: center;
+  margin: 32px;
+  font-weight: 900;
+}
+.thesis-content {
+  display: flex;
+  width: 100%;
+}
+.thesis-video-container {
+  width: 60%;
+}
+.thesis-video-container video {
+  width: 100%;
+}
+.thesis-cards {
+  margin-left: 24px;
+  width: 40%;
+}
+.thesis-card {
+  display: flex;
+  width: 100%;
+}
+.thesis-image {
+  width: 35%;
+}
+.thesis-image img {
+  width: 100%;
+}
+.thesis-info {
+  width: 65%;
+  padding-left: 16px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  padding: 16px 24px;
+}
+
 @media screen and (max-width: 600px) {
   header {
     display: none;
@@ -211,7 +258,7 @@ header {
   .keep-practicing {
     margin: 16px;
   }
-  
+
   .activities {
     width: 100%;
   }
@@ -220,21 +267,67 @@ header {
     flex-direction: column;
   }
   .activities-image-container {
-   width: 100%;
+    width: 100%;
   }
-  .activity-details{
+  .activity-details {
     width: 100%;
     margin: 16px;
   }
 
-.desktop{
+  .desktop {
     display: none;
-}
-.mobile{
+  }
+  .mobile {
     display: block;
-    
-}
+  }
   .courses {
     grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .start-learning {
+    background-color: white;
+  }
+  .start-learning-container {
+    margin: 0 16px;
+    padding: 32px 0px;
+  }
+  .start-learning-container h2 {
+    margin-top: 0;
+  }
+
+  .card {
+    background-color: lightgray;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .card img {
+    display: none;
+  }
+  .card-info h6,
+  .card-info p {
+    display: none;
+  }
+
+  .card h4 {
+    margin: 16px 0;
+  }
+  .card-info {
+    padding: 0 16px;
+  }
+  .thesis-content {
+    width: 100%;
+  }
+  .thesis {
+    margin: 0 0 24px;
+  }
+  .thesis-video-container {
+    width: 100%;
+  }
+
+  .thesis-cards,
+  .thesis-video-container h4,
+  .thesis-video-container p,
+  .terms-privacy {
+    display: none;
   }
 }
